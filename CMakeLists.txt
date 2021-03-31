@@ -7,7 +7,7 @@ link_directories(${FFMPEG_DIR}/lib/)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AVProject main.cpp codec/decoder/IDecoder.h codec/OneFrame.h codec/decoder/IDecodeStateCb.h)
+add_executable(AVProject main.cpp codec/decoder/IDecoder.h codec/OneFrame.h codec/decoder/IDecodeStateCb.h codec/decoder/DecodeState.h codec/decoder/BaseDecoder.cpp codec/decoder/BaseDecoder.h utils/logger.h)
 
 target_link_libraries(
         AVProject

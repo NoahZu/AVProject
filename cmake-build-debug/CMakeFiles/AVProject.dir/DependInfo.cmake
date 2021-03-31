@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/momo/CLionProjects/AVProject/codec/decoder/BaseDecoder.cpp" "/Users/momo/CLionProjects/AVProject/cmake-build-debug/CMakeFiles/AVProject.dir/codec/decoder/BaseDecoder.cpp.o"
   "/Users/momo/CLionProjects/AVProject/main.cpp" "/Users/momo/CLionProjects/AVProject/cmake-build-debug/CMakeFiles/AVProject.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

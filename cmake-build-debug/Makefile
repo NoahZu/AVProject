@@ -143,6 +143,33 @@ AVProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AVProject.dir/build.make CMakeFiles/AVProject.dir/build
 .PHONY : AVProject/fast
 
+codec/decoder/BaseDecoder.o: codec/decoder/BaseDecoder.cpp.o
+
+.PHONY : codec/decoder/BaseDecoder.o
+
+# target to build an object file
+codec/decoder/BaseDecoder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AVProject.dir/build.make CMakeFiles/AVProject.dir/codec/decoder/BaseDecoder.cpp.o
+.PHONY : codec/decoder/BaseDecoder.cpp.o
+
+codec/decoder/BaseDecoder.i: codec/decoder/BaseDecoder.cpp.i
+
+.PHONY : codec/decoder/BaseDecoder.i
+
+# target to preprocess a source file
+codec/decoder/BaseDecoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AVProject.dir/build.make CMakeFiles/AVProject.dir/codec/decoder/BaseDecoder.cpp.i
+.PHONY : codec/decoder/BaseDecoder.cpp.i
+
+codec/decoder/BaseDecoder.s: codec/decoder/BaseDecoder.cpp.s
+
+.PHONY : codec/decoder/BaseDecoder.s
+
+# target to generate assembly for a file
+codec/decoder/BaseDecoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AVProject.dir/build.make CMakeFiles/AVProject.dir/codec/decoder/BaseDecoder.cpp.s
+.PHONY : codec/decoder/BaseDecoder.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AVProject"
+	@echo "... codec/decoder/BaseDecoder.o"
+	@echo "... codec/decoder/BaseDecoder.i"
+	@echo "... codec/decoder/BaseDecoder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

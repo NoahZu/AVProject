@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "AVProject"
   "AVProject.pdb"
+  "CMakeFiles/AVProject.dir/codec/decoder/BaseDecoder.cpp.o"
   "CMakeFiles/AVProject.dir/main.cpp.o"
 )
 

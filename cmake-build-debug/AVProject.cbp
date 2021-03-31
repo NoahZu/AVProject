@@ -85,6 +85,15 @@
 		<Unit filename="/Users/momo/CLionProjects/AVProject/codec/OneFrame.h">
 			<Option target="AVProject"/>
 		</Unit>
+		<Unit filename="/Users/momo/CLionProjects/AVProject/codec/decoder/BaseDecoder.cpp">
+			<Option target="AVProject"/>
+		</Unit>
+		<Unit filename="/Users/momo/CLionProjects/AVProject/codec/decoder/BaseDecoder.h">
+			<Option target="AVProject"/>
+		</Unit>
+		<Unit filename="/Users/momo/CLionProjects/AVProject/codec/decoder/DecodeState.h">
+			<Option target="AVProject"/>
+		</Unit>
 		<Unit filename="/Users/momo/CLionProjects/AVProject/codec/decoder/IDecodeStateCb.h">
 			<Option target="AVProject"/>
 		</Unit>
@@ -92,6 +101,9 @@
 			<Option target="AVProject"/>
 		</Unit>
 		<Unit filename="/Users/momo/CLionProjects/AVProject/main.cpp">
+			<Option target="AVProject"/>
+		</Unit>
+		<Unit filename="/Users/momo/CLionProjects/AVProject/utils/logger.h">
 			<Option target="AVProject"/>
 		</Unit>
 		<Unit filename="/Users/momo/CLionProjects/AVProject/CMakeLists.txt">
